@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="maindiv">
+            <h1>Tic Tac Toe</h1>
+            <p id="userShow">Player 1's Turn</p>
+            <div class="row row-1">
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="firstValue" value="firstValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="secondValue" value="secondValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="thirdValue" value="thirdValue"></button>
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="fourthValue" value="fourthValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="fifthValue" value="fifthValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="sixthValue" value="sixthValue"></button>
+                </div>
+            </div>
+            <div class="row row-3">
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="sevenValue" value="sevenValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="eightValue" value="eightValue"></button>
+                </div>
+                <div class="col1">
+                    <button class="rowData" onclick="addData(this.value)" id="nineValue" value="nineValue"></button>
+                </div>
+            </div>
+            <p id="result"></p>
+            <button id="playagainbtn" onclick="cleanupFunction()">Clear</button>
+        </div>
+    </div>
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>
